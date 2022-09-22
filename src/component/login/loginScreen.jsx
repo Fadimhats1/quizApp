@@ -5,7 +5,7 @@ import * as fa from '@fortawesome/free-solid-svg-icons'
 const LoginScreen = ({changeHandle, submitHandle, inputData}) => {
   return (
     <div className='bg-purple-900 h-[calc(100%_-_80px)] rounded-t-lg flex items-center justify-center relative'>
-      <div className='bg-slate-900 h-48 w-96 rounded-lg drop-shadow-lg py-4 px-8 flex flex-col items-center pt-8 gap-2 z-10'>
+      <div className='bg-slate-900 h-48  rounded-lg drop-shadow-lg py-4 px-8 flex flex-col items-center pt-8 gap-2 z-10'>
         <div className='text-2xl font-bold'>Login</div>
         <div className='flex flex-col gap-2'>
           <label htmlFor="login" className='cursor-pointer'>Username</label>

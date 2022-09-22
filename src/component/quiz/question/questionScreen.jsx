@@ -93,7 +93,7 @@ const QuestionScreen = ({ dispatch, state }) => {
 								buttonAnswers(parameterButtonAnswers)
 							}
 						</div>
-					</> : <button className='bg-black mx-auto px-4 py-2 rounded-md font-bold' onClick={() => {
+					</> : <button className='bg-black mx-auto px-6 py-4 rounded-md font-bold text-xl' onClick={() => {
 						dispatch({ type: "setIsStart", payload: true })
 						timer.resume();
 					}}>
