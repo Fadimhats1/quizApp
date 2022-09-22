@@ -51,6 +51,5 @@ export const quizReducer = (state, action) => {
          };
         default:
             return state;
-
     }
 }

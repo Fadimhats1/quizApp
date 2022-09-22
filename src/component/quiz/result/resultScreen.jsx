@@ -4,11 +4,12 @@ const ResultScreen = ({ dataAndFunResult }) => {
     let {answers} = dataAndFunResult.state
     const {dispatch} = dataAndFunResult;
     if(localStorage.getItem("isDone")){
-        answers = JSON.parse(localStorage.getItem("answers"))
+        answers = JSON.parse(localStorage.getItem("answers")) != null ? JSON.parse(localStorage.getItem("answers")) : []
     }else
         localStorage.setItem("isDone", JSON.stringify(true))
     let correct = 0;
     let inCorrect = 0;
+    console.log(dataAndFunResult.state.answers);
     let totalAnswered = answers.length;
     answers.forEach(element => {
         if (element.isCorrect == true)
