@@ -8,10 +8,12 @@
 
 ### Built with
 <a href="https://reactjs.org/">React JS</a>
+<br/>
 <a href="https://tailwindcss.com/">Tailwind CSS</a>
 
 ### Dependencies
 <a href="https://www.npmjs.com/package/axios">Axios</a>
+<br/>
 <a href="https://www.npmjs.com/package/react-timer-hook">Timer React</a>
 
 <h2 align="center">
