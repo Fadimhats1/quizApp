@@ -9,7 +9,6 @@ const ResultScreen = ({ dataAndFunResult }) => {
         localStorage.setItem("isDone", JSON.stringify(true))
     let correct = 0;
     let inCorrect = 0;
-    console.log(dataAndFunResult.state.answers);
     let totalAnswered = answers.length;
     answers.forEach(element => {
         if (element.isCorrect == true)

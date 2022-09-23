@@ -8,7 +8,7 @@ const QuizScreen = () => {
     return (
         <div className='h-full bg-purple-900 rounded-lg'>
             {
-            quizContextValues.state.isDone || localStorage.getItem("isDone")?
+            quizContextValues.state.isDone || localStorage.getItem("isDone") ?
                 <ResultScreen dataAndFunResult={quizContextValues} />
                 :
                 <div className='h-[calc(100%_-_80px)] flex flex-col w-full p-4 justify-center'>

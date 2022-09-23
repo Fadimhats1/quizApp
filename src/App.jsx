@@ -8,7 +8,7 @@ import {initialStateQuiz, quizReducer } from './utils/reducer/reducer';
 
 const AppWrapper = () => {
   const [loginData, setLoginData] = useState('');
-  const [inputChange, setInputChange] = useState('')
+  const [inputChange, setInputChange] = useState('');
   const [state, dispatch] = useReducer(quizReducer, initialStateQuiz)
 
   useEffect(() => {
