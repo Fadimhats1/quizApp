@@ -20,3 +20,16 @@
   Spoiler of the project
 </h2>
 
+### Login Screen
+
+![](https://github.com/Fadimhats1/DecafeApp/blob/main/about/OrderFoodDrink.gif)
+
+### Question Screen
+
+![](https://github.com/Fadimhats1/DecafeApp/blob/main/about/OrderFoodDrink.gif)
+
+### Result Screen
+
+![](https://github.com/Fadimhats1/DecafeApp/blob/main/about/OrderFoodDrink.gif)
+
+
